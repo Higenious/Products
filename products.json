@@ -1,0 +1,27 @@
+{
+    "products" : [
+        {
+            "name" : "Shirt",
+            "color" : "red"
+         },
+         {
+            "name" : "chetan",
+            "color" : "tayade"
+         },
+         {
+            "name" : "yelow",
+            "color" : "Ruby"
+         },
+         {
+            "name" : "Shirt",
+            "color" : "Yellow"
+         },
+         {
+            "name" : "T-Shirt",
+            "color" : "Blue"
+         }
+    ]
+
+
+
+}
