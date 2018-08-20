@@ -1,27 +1,29 @@
 {
-    "products" : [
-        {
-            "name" : "Shirt",
-            "color" : "red"
-         },
-         {
-            "name" : "chetan",
-            "color" : "tayade"
-         },
-         {
-            "name" : "yelow",
-            "color" : "Ruby"
-         },
-         {
-            "name" : "Shirt",
-            "color" : "Yellow"
-         },
-         {
-            "name" : "T-Shirt",
-            "color" : "Blue"
-         }
-    ]
-
-
-
+  "products": [
+    {
+      "id": 2,
+      "name": "chetan",
+      "color": "tayade"
+    },
+    {
+      "id": 3,
+      "name": "yelow",
+      "color": "Ruby"
+    },
+    {
+      "id": 4,
+      "name": "Shirt",
+      "color": "Yellow"
+    },
+    {
+      "id": 5,
+      "name": "T-Shirt",
+      "color": "Blue"
+    },
+    {
+      "name": "chetan",
+      "color": "tayade",
+      "id": 6
+    }
+  ]
 }

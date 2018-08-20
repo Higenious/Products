@@ -12,9 +12,6 @@ export class HomeComponent implements OnInit {
   id:number;
   private headers = new Headers({ 'Content-Type': 'application/json'});
 
-
-
-
   products = [];
   fetchData = function() {
     this.http.get("http://localhost:3000/products").subscribe(
@@ -23,7 +20,6 @@ export class HomeComponent implements OnInit {
       }
     )
   }
-
 
   deleteProduct = function(id) {
     if(confirm("Are you sure?")) {
@@ -38,5 +34,4 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.fetchData();
   }
-
 }
